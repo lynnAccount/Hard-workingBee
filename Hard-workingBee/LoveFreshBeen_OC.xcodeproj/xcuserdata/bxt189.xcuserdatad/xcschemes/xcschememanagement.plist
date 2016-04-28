@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LoveFreshBeen_OC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CF34EB9A1C843DA4006C8B61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF4FAAA01C965CB300B8F8B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF4FAABB1C965D3200B8F8B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF4FAAFA1C965E1200B8F8B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

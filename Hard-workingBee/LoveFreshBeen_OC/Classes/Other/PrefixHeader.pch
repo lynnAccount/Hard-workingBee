@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  LoveFreshBeen_OC
+//
+//  Created by lynn on 16/3/1.
+//  Copyright © 2015年 lynn. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "Masonry.h"
+#import "SVProgressHUD.h"
+#import "MJExtension.h"
+#import "AppConst.h"
+#import "UIImageView+Extention.h"
+
+typedef void(^CompleteBlock)(id data,NSError *error);
+
+typedef NS_ENUM(NSInteger, HeadViewItemType) {
+    HeadViewItemTypePage,
+    HeadViewItemTypeHot,
+    HeadViewItemTypeHeadline,
+    HeadViewItemTypeBrand,
+    HeadViewItemTypeScene
+    
+};
+typedef void(^ClikedCallback)(HeadViewItemType type,NSInteger tag);
+
+#define Width  [[UIScreen mainScreen] bounds].size.width
+#define Height [[UIScreen mainScreen] bounds].size.height
+
+#endif /* PrefixHeader_pch */
